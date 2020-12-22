@@ -44,13 +44,14 @@
           <li class="menu-active"><a href="#about">The Project</a></li>
           <li><a href="#Concept">Concept</a></li>
           <li><a href="#Scene">Scene</a></li>
-          <li><a href="#Image_Features">Image Features</a></li>
-          <li><a href="#Acceleration">Acceleration</a></li>
+          <!-- <li><a href="#Image_Features">Image Features</a></li> -->
+          <li><a href="#Acceleration">Performance</a></li>
           <li><a href="#Build">Build</a></li>
           <li><a href="#Acknowledgements">Acknowledgements</a></li>
           <li><a href="#services">Code Features</a></li>
+          <li><a href="#portfolio">Image Features</a></li>
           <li><a href="#team">Team</a></li>
-          <!-- <li><a href="#Comments">Comments</a></li> -->
+          <li><a href="#Comments">Comments</a></li>
           
 
         </ul>
@@ -85,19 +86,19 @@
             </p>
 
             <div class="icon-box wow fadeInUp">
-              <div class="icon"><i class="fa fa-photo"></i></div>
+              <!-- <div class="icon"><i class="fa fa-photo"></i></div> -->
               <h4 class="title"><a href="">Image 1</a></h4>
               <p class="description">A collection of spheres</p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-              <div class="icon"><i class="fa fa-photo"></i></div>
+              <!-- <div class="icon"><i class="fa fa-photo"></i></div> -->
               <h4 class="title"><a href="">Image 2</a></h4>
               <p class="description">A grid of spheres</p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-              <div class="icon"><i class="fa fa-photo"></i></div>
+              <!-- <div class="icon"><i class="fa fa-photo"></i></div> -->
               <h4 class="title"><a href="">Image 3</a></h4>
               <p class="description">A sphere and a Triangle passing through a plane</p>
             </div>
@@ -117,7 +118,7 @@
       <div class="container wow fadeIn">
         <div class="section-header">
           <h3 class="section-title">Concept</h3>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="section-description">Our concept is to display various polygons that are randomly distributed and colored to showcase the versitality of our Ray-Tracer</p>
         </div>
         
       </div>
@@ -132,7 +133,7 @@
       <div class="container wow fadeIn">
         <div class="section-header">
           <h3 class="section-title">Scene</h3>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="section-description">We have not particularly created a scene for our renders. Instead our focus was on generating different images to show the capabilities of our Ray-Tracer.</p>
         </div>
         
       </div>
@@ -141,15 +142,15 @@
     <!--==========================
       Image_Features Section
     ============================-->
-    <section id="Image_Features">
+    <!-- <section id="Image_Features">
       <div class="container wow fadeIn">
         <div class="section-header">
           <h3 class="section-title">Image Features</h3>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="section-description">Our images were rendered using Point light and Reflective Materials.</p>
         </div>
 
-      </div>
-    </section><!-- #Image_Features -->
+      </div> -->
+    <!-- </section>#Image_Features -->
     <!--==========================
       Code_Features Section
     ============================-->
@@ -169,54 +170,54 @@
     <section id="Acceleration">
       <div class="container wow fadeInUp">
         <div class="section-header">
-          <h3 class="section-title">Acceleration</h3>
-          <p class="section-description">The following performance improvements were observed after implmenting BVH as an acceleration structure</p>
+          <h3 class="section-title">Performance</h3>
+          <p class="section-description">The following tables summarizes the performance of our code for 2 different build files</p>
         </div>
         <div class="container">
         <div class="floatLeft">
           <TABLE BORDER="5" CELLSPACING="16" style="border-spacing:20px">
-            <TR>
+            <TR ALIGN="CENTER">
               <TH COLSPAN="2">
-                <H3><BR>With Acceleration</H3>
+                <H3><BR>buildWorld4 Render Times</H3>
               </TH>
             </TR>
-              <TH>Column A</TH>
-              <TH>Column B</TH>
+              <TH>Dimension</TH>
+              <TH>Render Time in seconds</TH>
             <TR ALIGN="CENTER">
-              <TD>Data 1</TD>
-              <TD>Data 2</TD>
+              <TD>1200</TD>
+              <TD>25.2</TD>
             </TR>
             <TR ALIGN="CENTER">
-              <TD>Data 3</TD>
-              <TD>Data 4</TD>
+              <TD>800</TD>
+              <TD>9.49</TD>
             </TR>
             <TR ALIGN="CENTER">
-              <TD>Data 5</TD>
-              <TD>Data 6</TD>
+              <TD>400</TD>
+              <TD>2.75</TD>
             </TR>
           </TABLE>
         </div>
 
         <div class="floatRight">
           <TABLE BORDER="5" CELLSPACING="16" style="border-spacing:20px">
-            <TR>
+            <TR ALIGN="CENTER">
               <TH COLSPAN="2">
-                <H3><BR>Without Acceleration</H3>
+                <H3><BR>buildChapter14Pers2 Render Times</H3>
               </TH>
             </TR>
-              <TH>Column A</TH>
-              <TH>Column B</TH>
+              <TH>Dimension</TH>
+              <TH>Render Time in seconds</TH>
             <TR ALIGN="CENTER">
-              <TD>Data 1</TD>
-              <TD>Data 2</TD>
+              <TD>1200</TD>
+              <TD>24.3</TD>
             </TR>
             <TR ALIGN="CENTER">
-              <TD>Data 3</TD>
-              <TD>Data 4</TD>
+              <TD>800</TD>
+              <TD>11.1</TD>
             </TR>
             <TR ALIGN="CENTER">
-              <TD>Data 5</TD>
-              <TD>Data 6</TD>
+              <TD>400</TD>
+              <TD>3.2</TD>
             </TR>
           </TABLE>
         </div>
@@ -237,7 +238,18 @@
       <div class="container wow fadeInUp">
         <div class="section-header">
           <h3 class="section-title">Build</h3>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="section-description">We implmented the following build files in our project</p>
+          <ul class="section-description">
+            <li>buildChapter14</li>
+            <li>buildChapter14Pers</li>
+            <li>buildChapter14Pers2</li>
+            <li>buildChapter14Shadow</li>
+            <li>buildMyWorld</li>
+            <li>buildMyWorld4</li>
+            <li>buildMyWorld5</li>
+            <li>buildMyWorld6</li>
+            <li>buildRandSpheres</li>
+          </ul>
         </div>
         
 
@@ -256,6 +268,8 @@
           <p class="section-description">
             <ul>
               <li>Kevin Suffern - RayTracing from the Ground Up</li>
+              <li>https://www.scratchapixel.com</li>
+              <li>https://github.com/VertexC/glass-chess/</li>
             </ul>
           </p>
         </div>
@@ -272,14 +286,14 @@
       <div class="container wow fadeIn">
         <div class="section-header">
           <h3 class="section-title">Code Features</h3>
-          <p class="section-description">We implemented the following features in our code in order to generate ray-traced images</p>
+          <p class="section-description">We implemented the following features in our code in order to generate our Ray-Traced images</p>
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-desktop"></i></a></div>
-              <h4 class="title"><a href="">Lighting</a></h4>
-              <p class="description">To speed up the rendering of our images we used Bounding Volume Hierarchy (BVH)</p>
+              <div class="icon"><i class="fa fa-desktop"></i></div>
+              <h4 class="title">Lighting</h4>
+              <p class="description">We have added Point, Directional, and Spotlight</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
@@ -291,31 +305,31 @@
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-paper-plane"></i></a></div>
-              <h4 class="title"><a href="">Acceleration</a></h4>
+              <div class="icon"><i class="fa fa-paper-plane"></i></div>
+              <h4 class="title">Acceleration</h4>
               <p class="description">To speed up the rendering of our images we used Bounding Volume Hierarchy (BVH)</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-photo"></i></a></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <div class="icon"><i class="fa fa-photo"></i></div>
+              <h4 class="title">Tracers</h4>
+              <p class="description">We've implmented a basic Tracer, a Relfective Tracer, and a Reflective Tracer with Shadows</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-road"></i></a></div>
-              <h4 class="title"><a href="">Geometry</a></h4>
+              <div class="icon"><i class="fa fa-road"></i></div>
+              <h4 class="title">Geometry</h4>
               <p class="description">We implmented different classes for different geometries to ensure diversity in out renders</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-shopping-bag"></i></a></div>
-              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+              <div class="icon"><i class="fa fa-photo"></i></div>
+              <h4 class="title">Materials</h4>
+              <p class="description">Tinged Mirror, Glossy Specular, and Transparent Materials have been implemented</p>
             </div>
           </div>
         </div>
@@ -330,94 +344,94 @@
     <section id="portfolio">
       <div class="container wow fadeInUp">
         <div class="section-header">
-          <h3 class="section-title">Images</h3>
-          <p class="section-description">Our Rendered Images</p>
+          <h3 class="section-title">Image Features</h3>
+          <p class="section-description">Our Rendered Images and Their Features. Click To Enlarge.</p>
         </div>
         <div class="row">
 
           <div class="col-lg-12">
             <ul id="portfolio-flters">
               <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
+              <!-- <li data-filter=".filter-app">App</li>
               <li data-filter=".filter-card">Card</li>
               <li data-filter=".filter-logo">Logo</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-web">Web</li> -->
             </ul>
           </div>
         </div>
 
         <div class="row" id="portfolio-wrapper">
           <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-            <a href="">
-              <img src="img/portfolio/app1.jpg" alt="">
+            <a href="img/portfolio/app1.png">
+              <img src="img/portfolio/app1.png" alt="">
               <div class="details">
-                <h4>App 1 test</h4>
-                <span>My name jeff</span>
+                <h4>buildChapter14</h4>
+                <span>Multiple Spheres</span>
               </div>
             </a>
           </div>
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-            <a href="">
-              <img src="img/portfolio/web2.jpg" alt="">
+            <a href="img/portfolio/web2.png">
+              <img src="img/portfolio/web2.png" alt="">
               <div class="details">
-                <h4>Web 2</h4>
-                <span>Alored dono par</span>
+                <h4>buildMyWorld4</h4>
+                <span>Reflections of a Single Sphere with Shadows</span>
               </div>
             </a>
           </div>
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-            <a href="">
-              <img src="img/portfolio/app3.jpg" alt="">
+            <a href="img/portfolio/app3.png">
+              <img src="img/portfolio/app3.png" alt="">
               <div class="details">
-                <h4>App 3</h4>
-                <span>Alored dono par</span>
+                <h4>buildMyWorld5</h4>
+                <span>Reflection in Water</span>
               </div>
             </a>
           </div>
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-            <a href="">
-              <img src="img/portfolio/card1.jpg" alt="">
+            <a href="img/portfolio/card1.png">
+              <img src="img/portfolio/card1.png" alt="">
               <div class="details">
-                <h4>Card 1</h4>
-                <span>Alored dono par</span>
+                <h4>buildMyWorld6</h4>
+                <span>Reflective Surfaces</span>
               </div>
             </a>
           </div>
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-            <a href="">
-              <img src="img/portfolio/card2.jpg" alt="">
+            <a href="img/portfolio/card2.png">
+              <img src="img/portfolio/card2.png" alt="">
               <div class="details">
-                <h4>Card 2</h4>
-                <span>Alored dono par</span>
+                <h4>buildMyWorld</h4>
+                <span>Shadows Implemented</span>
               </div>
             </a>
           </div>
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-            <a href="">
-              <img src="img/portfolio/web3.jpg" alt="">
+            <a href="img/portfolio/web3.png">
+              <img src="img/portfolio/web3.png" alt="">
               <div class="details">
-                <h4>Web 3</h4>
-                <span>Alored dono par</span>
+                <h4>buildChapter14Pers</h4>
+                <span>More Shadows</span>
               </div>
             </a>
           </div>
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-            <a href="">
-              <img src="img/portfolio/card3.jpg" alt="">
+            <a href="img/portfolio/card3.png">
+              <img src="img/portfolio/card3.png" alt="">
               <div class="details">
-                <h4>Card 3</h4>
-                <span>Alored dono par</span>
+                <h4>buildChapter14Pers2</h4>
+                <span>Even More Shadows</span>
               </div>
             </a>
           </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+          <!-- <div class="col-lg-3 col-md-6 portfolio-item filter-app">
             <a href="">
               <img src="img/portfolio/app2.jpg" alt="">
               <div class="details">
@@ -465,7 +479,7 @@
                 <span>Alored dono par</span>
               </div>
             </a>
-          </div>
+          </div> -->
 
         </div>
 
@@ -546,16 +560,19 @@
     <!--==========================
       Comments Section
     ============================-->
-    <!-- <section id="Comments">
+    <section id="Comments">
       <div class="container wow fadeInUp">
         <div class="section-header">
           <h3 class="section-title">Comments</h3>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="section-description">Our Image album in 1200x1200 resolution can be found at this link <a href="">https://imgur.com/gallery/jNaMIFH</a>. <br>
+          There is no comparison of accelerated structures with non-accelerated ones since we were unable to degug our implementation in time.
+          <br>The buggy Acceleration structure can be activated by enabling the lines 47-51 in World.cpp
+        </p>
         </div>
         
 
       </div>
-    </section> #Comments -->
+    </section> <!-- #Comments -->
   </main> -->
 
   <!--==========================
